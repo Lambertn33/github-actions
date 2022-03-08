@@ -8,5 +8,9 @@ jobs:
             - uses: actions/setup-node@v2
               with: 
                   node-version: 14
-            - run: tree
-            - run: node -v
+            - name: running the tree      
+                  run: tree
+            - name: checking the node version
+                  run: node -v
+            - name: build the project
+                  run: npm build

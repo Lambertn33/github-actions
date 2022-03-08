@@ -4,5 +4,5 @@ jobs:
     runs-on-push:
           runs-on: ubuntu-latest
           steps:
-            run: echo "run successfully"
+             - run: echo "run successfully"
        

@@ -1,12 +1,8 @@
-name: another start
+name: github Actions
 on: [push]
 jobs: 
-    runs-on-push:
-          runs-on: ubuntu-latest
-          steps:
-             - run: echo "run successfully"
-    runs-on-push2:
-          runs-on: ubuntu-latest
-          steps:
-             - run: echo "run successfully again"
-       
+    build-app:
+        runs-on: ubuntu-latest
+        steps:
+            - uses: actions/checkout@v3
+            - run: tree

@@ -14,3 +14,5 @@ jobs:
               run: node -v
             - name: build the project
               run: npm build
+            - name: installing the dependencies
+              run: npm install  

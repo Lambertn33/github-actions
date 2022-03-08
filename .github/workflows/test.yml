@@ -1,1 +1,3 @@
-yaml file added
+myapp:
+    start: npm start
+    build: nom run build

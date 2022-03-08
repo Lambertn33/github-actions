@@ -9,8 +9,8 @@ jobs:
               with: 
                   node-version: 14
             - name: running the tree      
-                  run: tree
+              run: tree
             - name: checking the node version
-                  run: node -v
+              run: node -v
             - name: build the project
-                  run: npm build
+              run: npm build

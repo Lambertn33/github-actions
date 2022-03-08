@@ -1,8 +1,8 @@
 name: my first github action
 on: [push]
 jobs: 
-   first-job:
+    first-job:
       runs-on: ubuntu-latest
       steps:
-          - echo "Hi again"
-          - echo "This is working"
+          - run: echo "Hi again"
+          - run: echo "This is working"
